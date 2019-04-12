@@ -31,4 +31,6 @@ def game_hash
           :slam_dunks => 2
         } #Adrien
     } #players
+  } #away
+} #teams
 end
