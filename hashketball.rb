@@ -5,7 +5,16 @@ def game_hash
       :team_name = "Celtics",
       :colors = ["green", "white"]
       :players => { 
-        "Kyrie Irving" => 
+        "Kyrie Irving" => {
+          :number
+          :shoe
+          :points
+          :rebounds
+          :assists
+          :steals
+          :blocks
+          :slam_dunks
+        }
     }
     :away => {
       :team_name = "Lakers"
