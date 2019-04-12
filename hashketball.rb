@@ -15,7 +15,7 @@ def game_hash
           :blocks => 1,
           :slam_dunks => 1
         } #players
-    } #home
+    },#home
     :away => {
       :team_name => "Charlotte Hornets",
       :colors = ["Turquoise", "Purple"],
