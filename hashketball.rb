@@ -3,7 +3,7 @@ def game_hash
   teams = {
     :home => {
       :team_name = "Celtics",
-      :colors = ["green", "white"]
+      :colors = ["green", "white"],
       :players => { 
         "Kyrie Irving" => {
           :number
