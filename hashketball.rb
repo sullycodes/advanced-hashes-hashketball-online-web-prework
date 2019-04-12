@@ -17,9 +17,19 @@ def game_hash
         }
     }
     :away => {
-      :team_name = "Lakers"
-      :colors = ["purple", "gold"]
-      :players
+      :team_name = "Lakers",
+      :colors = ["purple", "gold"],
+      :players => { 
+        "LeBron James" => {
+          :number
+          :shoe
+          :points
+          :rebounds
+          :assists
+          :steals
+          :blocks
+          :slam_dunks
+        }
     }
   }
 
